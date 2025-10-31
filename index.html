@@ -22,10 +22,26 @@ For this task you will create an HTML document with the following features:
 </head>
   
 <body>
+<h1>Welcome to my Webpage! </h1>
+<h2>Lets talk a little about myself</h2>
 
+<p>
+  Hey there! My name is <b>Rivaan</b>, and this is my first HTML assignment. 
+  I enjoy learning about <i>web development</i> and copywriting.
+  In my free time, I love <b><i>coding, gaming, and hanging out with my friends.</i></b>
+</p>
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRnoXKrKBOBuFslXtI8zI3M0-OaXEIOQPatg&s"
+      alt= "HTML Logo" width="200">
 
-  
+<button onclick="askName()">Please Click Me!</button>
+
+<script>
+  function askName(){
+    let name = prompt("What's your name?");
+    alert("Nice to meet you," + name + "!");
+  }
+</script>
   <script src="script.js"></script>
 </body>
 
